@@ -83,6 +83,13 @@ Male
 </select>
 </div>
 </li>
+<li>
+<fieldset>
+<legend class="desc">
+What services are of interest?
+</legend>
+</fieldset>
+</li>
 <li id="foli124" class="notranslate  twoColumns     ">
 <fieldset>
 <![if !IE | (gte IE 8)]>

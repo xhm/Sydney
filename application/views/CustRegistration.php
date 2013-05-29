@@ -13,9 +13,12 @@ Customer Registration
 <!-- CSS -->
 <?=$styleLinks['structure']?>
 <?=$styleLinks['form']?>
+<?=$styleLinks['theme']?>
 
 <!-- JavaScript -->
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 <?=$scriptTags['koppi']?> 
+<?=$scriptTags['reg']?> 
 
 <!--[if lt IE 10]>
 <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -25,14 +28,17 @@ Customer Registration
 <body id="public">
 <div id="container" class="ltr">
 
-<form id="form2" name="form2" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+
+<form id="customer_form" name="customer_form" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
 action="">
 
 <header id="header" class="info">
 <h2>Customer Registration</h2>
-<div></div>
 </header>
 
+<div id="confirm_message" class="confirmMessage"> </div>
+
+<div id="form_elements">
 <ul>
 
 <li id="foli101" class="notranslate      ">
@@ -227,7 +233,8 @@ What attracts you to Koppi? (tick all that apply)
 </span>
 </div>
 </fieldset>
-</li><li id="foli224" 
+</li>
+<li id="foli224" 
 class="notranslate      "><label class="desc" id="title224" for="Field224">
 Comments
 </label>
@@ -251,6 +258,7 @@ onkeyup=""
  /></div>
 </li>
 </ul>
+</div>
 </form> 
 
 </div><!--container-->

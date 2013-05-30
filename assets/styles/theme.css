@@ -370,3 +370,18 @@ a.powertiny b, a.powertiny em{
 	font-size:140%;
 	margin-left:8px;
 }
+.hidden {
+	visibility: hidden;
+	display: none;
+}
+
+.confirm h2 {
+	font-weight: normal;
+	margin: 0 0 0.2em 0;
+	line-height: 135%;
+	color: #222;
+	margin: 0 1em;
+	padding: 70px 0 80px 0;
+}
+
+

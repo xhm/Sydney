@@ -18,7 +18,7 @@ Customer Registration
 <!-- JavaScript -->
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 <?=$scriptTags['koppi']?> 
-<?=$scriptTags['reg']?> 
+<?=$scriptTags['form']?> 
 
 <!--[if lt IE 10]>
 <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -32,13 +32,15 @@ Customer Registration
 <form id="customer_form" name="customer_form" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
 action="">
 
+<div id="confirm_message" class="confirmMessage hidden">
+<h2>Thank you for filling out our form!</h2>
+</div>
+
+<div id="form_elements">
 <header id="header" class="info">
 <h2>Customer Registration</h2>
 </header>
 
-<div id="confirm_message" class="confirmMessage"> </div>
-
-<div id="form_elements">
 <ul>
 
 <li id="foli101" class="notranslate      ">

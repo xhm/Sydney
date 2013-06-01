@@ -27,13 +27,12 @@ Customer Registration
 
 <body id="public">
 <div id="container" class="ltr">
-
-
+<h1 id="logo">&nbsp;</h1>
 <form id="customer_form" name="customer_form" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
 action="">
 
 <div id="confirm_message" class="confirmMessage hidden">
-<h2>Thank you for filling out our form!</h2>
+<h2>Success! Thank you for filling out our form!</h2>
 </div>
 
 <div id="form_elements">
